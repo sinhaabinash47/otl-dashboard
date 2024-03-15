@@ -66,7 +66,7 @@ function App() {
     <>
       <div className='w-100' style={{ height: "100vh" }}>
         <div className='d-flex h-100'>
-          <div className='bg-black' style={{ width: "250px" }}>
+          <div style={{ backgroundColor:'black', width: "250px", borderRight: "0.5px solid rgb(18 18 18)" }}>
             <div className='d-flex justify-content-center mt-4'>
               <img style={{ height: "60px", width: "60px", clipPath: 'circle()' }} src={profile} alt="" />
             </div>
@@ -79,16 +79,16 @@ function App() {
               ))}
             </List>
           </div>
-          <div className='w-100 h-100 bg-secondary'>
-            <div>
-              <AppBar position="static" style={{ backgroundColor: 'black' }}>
+          <div className='w-100 h-100'>
+            <div style={{borderBottom: "0.5px solid rgb(18 18 18)"}}>
+              <AppBar className='' position="static" style={{ backgroundColor: 'black' }}>
                 <Toolbar style={{ justifyContent: 'space-between' }}>
                   <div></div> {/* Empty div to push the button to the right */}
                   <Button variant="contained" style={{ backgroundColor: 'rgb(255, 72, 0)' }}>Connect</Button>
                 </Toolbar>
               </AppBar>
             </div>
-            <div className='bg-dark' style={{ height: "calc(100vh - 64px)", overflowY: "auto" }}>
+            <div className='' style={{ backgroundColor:'black', height: "calc(100vh - 64px)", overflowY: "auto" }}>
               <div className='d-flex justify-content-center w-100 mt-3'>
                 <Card sx={{ width: "70rem", backgroundColor: '#1C1C1C' }}>
                   <CardContent>
