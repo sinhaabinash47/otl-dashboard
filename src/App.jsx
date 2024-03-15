@@ -101,8 +101,8 @@ function App() {
                             </Avatar>
                           </ListItemAvatar>
                           <ListItemText
-                            primary={<span style={{ color: 'white' }}>{item.primary}</span>}
-                            secondary={<span style={{ color: 'white' }}>{item.secondary}</span>}
+                            primary={<span style={{ color: 'white', fontSize: '15px' }}>{item.primary}</span>}
+                            secondary={<span style={{ color: 'white', fontSize: '20px' }}>{item.secondary}</span>}
                           />
                         </ListItem>
                       ))}
