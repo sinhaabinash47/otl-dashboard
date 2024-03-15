@@ -68,7 +68,7 @@ function App() {
         <div className='d-flex h-100'>
           <div className='bg-black' style={{ width: "250px" }}>
             <div className='d-flex justify-content-center mt-4'>
-              <img style={{ height: "80px", width: "80px", borderRadius: "50%" }} src={profile} alt="" />
+              <img style={{ height: "60px", width: "60px", clipPath: 'circle()' }} src={profile} alt="" />
             </div>
             <List className='mt-3'>
               {listitem.map((item, index) => (
@@ -134,7 +134,7 @@ function App() {
                   <Grid item xs={12} sm={6}>
                     <List>
                       <div className='d-flex mx-3 justify-content-start mt-4'>
-                        <img style={{ height: "40px", width: "40px", borderRadius: "50%" }} src={profile} alt="" />
+                        <img style={{ height: "40px", width: "40px", clipPath:'circle()' }} src={profile} alt="" />
                       </div>
                       <ListItem className='text-white'>
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae ipsum dolorem ipsa. Odit quibusdam sapiente veritatis!
