@@ -96,7 +96,7 @@ function App() {
                       {chartList.map((item, index) => (
                         <ListItem key={index}>
                           <ListItemAvatar>
-                            <Avatar>
+                            <Avatar style={{backgroundColor:'#3B3B3B'}}>
                               {item.icon}
                             </Avatar>
                           </ListItemAvatar>
